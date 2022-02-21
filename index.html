@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Expresiones Regulares</title>
+</head>
+<body>
+
+<div class="expresion">
+
+    <h2>EXPRESIONES REGULARES</h2>
+
+    <form>
+        <label for="correo">1.- CORREO:  </label>
+        <input type="text"class="barra"  id="correo"/>
+        <input type="button" class="btn btn-success" value="Verificar" onclick="VerificarEmail(form.correo.value)"/>
+        <br/><br/>
+    
+        <label for="url">2.- URL:  </label>
+        <input type="text" class="barra2" id="url"/>
+        <input type="button" class="btn btn-success" value="Verificar" onclick="VerificarUrl(form.url.value)"/>
+        <br/><br/>
+
+        <label for="hora">3.- HORA:  </label>
+        <input type="text" class="barra2" id="hora"/>
+        <input type="button" class="btn btn-success" value="Verificar" onclick="VerificarHora(form.hora.value)"/>
+        <br/><br/>
+
+       <label for="fecha">4.- FECHA:  </label>
+        <input type="text" class="barra2"  id="fecha"/>
+        <input type="button" class="btn btn-success" value="Verificar" onclick="VerificarFecha(form.fecha.value)"/>
+        <br/><br/>
+
+        <label for="rfc">5.- RFC:  </label>
+        <input type="text" class="barra2" id="rfc"/>
+        <input type="button" class="btn btn-success" value="Verificar" onclick="VerificarRfc(form.rfc.value)"/>
+        <br/><br/>
+
+        <label for="contraseña">6.- CONTRASEÑA:  </label>
+        <input type="text"  id="contraseña"/>
+        <input type="button" class="btn btn-success" value="Verificar" onclick="VerificarContraseña(form.contraseña.value)"/>
+        <p>(La contraseña debe tener al entre 8 y 16 caracteres, al menos un dígito, al menos una minúscula y al menos una mayúscula).</p>
+        <br/><br/>
+    </form>
+</div>
+<script src="main.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</body>
+</html>

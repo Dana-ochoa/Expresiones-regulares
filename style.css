@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+input:focus {
+    border-radius: 25px;
+    outline: none;
+    padding-left: 10px;
+    background: rgba(25,25,25,0.5);
+    color: white;
+}
+
+.btn-success{
+    background-color: rgb(251, 233, 231) ;
+}
+
+.expresion{
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-125%, -50%);
+    width: 500px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px ;
+}
+
+h2{
+    color: rgb(101, 255, 101);
+    
+}
+
+.barra{
+    width: 200px;
+}
+
+.barra2{
+    width: 230px;
+}
